@@ -30,5 +30,6 @@
         /// Наличие SmartTV
         /// </summary>
         public bool SmartTV { get; set; }
+        
     }
 }
