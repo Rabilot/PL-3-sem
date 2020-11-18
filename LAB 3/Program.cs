@@ -11,11 +11,13 @@ namespace LAB_3
         {
             Store store = MakeStore();
             Console.WriteLine(store);
-            //WritePriceRange(store);
+            WritePriceRange(store);
             store.Add(new Phone("Mi 10", "Xiaomi", 1760.00, "Blue", 
                 "Qualcomm Snapdragon 865", 256, 6.67, true));
             Console.WriteLine("This product is: \n" + store.FindByName("Mi 10"));
             Serialize(store);
+            //store = DeserializeStore("Act.xml");
+            Console.WriteLine("Number of phones: " + store.NumberOfPhones());
             Console.WriteLine("GATOVA");
         }
 
@@ -23,12 +25,19 @@ namespace LAB_3
         {
             Console.WriteLine("Write minimal and maximal price: ");
             double Min, Max;
-            Min = Convert.ToDouble(Console.ReadLine());
-            Max = Convert.ToDouble(Console.ReadLine());
-            List<Product> products = store.FindByPriceRange(Min, Max);
-            foreach (var product in products)
+            try
             {
-                Console.WriteLine(product);
+                Min = Convert.ToDouble(Console.ReadLine());
+                Max = Convert.ToDouble(Console.ReadLine());
+                List<Product> products = store.FindByPriceRange(Min, Max);
+                foreach (var product in products)
+                {
+                    Console.WriteLine(product);
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Format Exception!");
             }
         }
 
@@ -53,14 +62,21 @@ namespace LAB_3
             return store;
         }
 
-        static Store DeserializeStore()
+        static Store DeserializeStore(string path)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(Store));
-            FileStream fileStream = new FileStream(Directory.GetCurrentDirectory() + 
-                                                   "\\database.xml", FileMode.OpenOrCreate);
-            Store store = (Store) serializer.Deserialize(fileStream);
-            fileStream.Close();
-            return store;
+            try
+            {
+                FileStream fileStream = new FileStream(path, FileMode.Open);
+                Store store = (Store) serializer.Deserialize(fileStream);
+                fileStream.Close();
+                return store;
+            }
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine($"File {path} not found!");
+                return new Store();
+            }
         }
 
         static void Serialize(Store store)

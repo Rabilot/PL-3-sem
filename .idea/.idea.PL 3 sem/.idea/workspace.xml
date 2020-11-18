@@ -37,14 +37,14 @@
         <option value="$PROJECT_DIR$/LAB 3/TV.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Speakers.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Camera.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Program.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Store.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Product.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Wire.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Gamepads.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Speakers.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/TV.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Phone.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Product.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Program.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Store.cs" />
       </list>
     </option>
   </component>
@@ -120,26 +120,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1605724821472">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1605731884787">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604640288586" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724821472" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1605724821472">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605731884787" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1605731884787">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604640288585" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724821472" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1605724821471">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605731884787" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1605731884786">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604640288585" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724821471" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1605724821472">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605731884786" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1605731884787">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604640288585" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724821472" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605731884787" />
     <state x="275" y="116" key="Rider.ProjectTemplateDialog.Size" timestamp="1604567155457">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

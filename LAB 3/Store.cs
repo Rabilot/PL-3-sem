@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.PerformanceData;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 
@@ -40,7 +43,15 @@ namespace LAB_3
 
         public Product FindByName(string name)
         {
-            return Products.Find(product => product.Name == name);
+            try
+            {
+                return Products.Find(product => product.Name == name);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine($"Product with name {name} not found!");
+                return new Product();
+            }
         }
 
         public bool IsEmpty()
@@ -73,6 +84,13 @@ namespace LAB_3
 
             return stringBuilder.ToString();
         }
-        
+
+        public int NumberOfPhones()
+        {
+            int i = 0;
+            foreach (Product product in Products.OfType<Phone>()) i++;
+            return i;
+        }
+
     }
 }
