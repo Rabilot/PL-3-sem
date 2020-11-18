@@ -11,8 +11,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Git/grsu-pl-labs-master/Lab 3/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -26,8 +26,8 @@
         <option value="$PROJECT_DIR$/LAB 3/Speakers.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Product.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Camera.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Products/Gamepads.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Wire.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Products/Gamepads.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +90,7 @@
       <workItem from="1604992950519" duration="3558000" />
       <workItem from="1605264203496" duration="1443000" />
       <workItem from="1605265670642" duration="10338000" />
+      <workItem from="1605715080048" duration="354000" />
     </task>
     <servers />
   </component>
