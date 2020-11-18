@@ -20,9 +20,13 @@
         public int Storage{ get; set;}
         //public int xyjablic;
         /// <summary>
-        /// Дисплей
+        /// Тип дисплея
         /// </summary>
-        public display Display{ get; set;}
+        public string DisplayType{ get; set;}
+        /// <summary>
+        /// Размер дисплея
+        /// </summary>
+        public double DisplaySize { get; set; }
         /// <summary>
         /// Наличие NFC
         /// </summary>

@@ -2,7 +2,18 @@
 {
     public class TV
     {
-        public display Display { get; set; }
+        /// <summary>
+        /// Тип экрана
+        /// </summary>
+        public string ScreenType { get; set; }
+        /// <summary>
+        /// Размер экрана
+        /// </summary>
+        public double ScreenSize { get; set; }
+        /// <summary>
+        /// Разрешение
+        /// </summary>
+        public int ScreenResolution { get; set; }
         /// <summary>
         /// Наличие HDR
         /// </summary>
