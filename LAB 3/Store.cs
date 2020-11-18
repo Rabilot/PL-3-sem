@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Odbc;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.PerformanceData;
 using System.IO;
@@ -67,7 +68,7 @@ namespace LAB_3
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("StoreProducts: ");
+            stringBuilder.Append("StoreProducts: \n");
             foreach (var product in Products)
             {
                 stringBuilder.Append($"{product}\n");

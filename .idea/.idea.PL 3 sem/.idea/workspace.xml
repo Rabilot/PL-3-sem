@@ -42,9 +42,9 @@
         <option value="$PROJECT_DIR$/LAB 3/Products/Speakers.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/TV.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Product.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Store.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Phone.cs" />
         <option value="$PROJECT_DIR$/LAB 3/display.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Store.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Program.cs" />
       </list>
     </option>
@@ -157,9 +157,9 @@
       <screen x="1920" y="116" width="1920" height="1050" />
     </state>
     <state x="1920" y="116" width="1387" height="724" key="dock-window-2/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605723471741" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605716413708">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605735436682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605716413708" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605735436682" />
   </component>
 </project>

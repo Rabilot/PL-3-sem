@@ -15,6 +15,7 @@ namespace LAB_3
             store.Add(new Phone("Mi 10", "Xiaomi", 1760.00, "Blue", 
                 "Qualcomm Snapdragon 865", 256, 6.67, true));
             Console.WriteLine("This product is: \n" + store.FindByName("Mi 10"));
+            store.Remove(0);
             Serialize(store);
             Console.WriteLine("Number of phones: " + store.NumberOfPhones());
             store = DeserializeStore("Act.xml");
@@ -39,6 +40,8 @@ namespace LAB_3
                 Console.WriteLine("Format Exception!");
             }
         }
+
+        
 
         static Store MakeStore()
         {

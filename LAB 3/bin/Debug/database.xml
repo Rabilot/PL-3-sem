@@ -1,16 +1,6 @@
 <?xml version="1.0"?>
 <Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Products>
-    <Product xsi:type="Phone">
-      <Name>Redmi Note 9 Pro</Name>
-      <Manufacturer>Xiaomi</Manufacturer>
-      <Price>699</Price>
-      <Color>Gray</Color>
-      <CP>Qualcomm Snapdragon 720G</CP>
-      <Storage>128</Storage>
-      <DisplaySize>6.67</DisplaySize>
-      <NFC>true</NFC>
-    </Product>
     <Product xsi:type="TV">
       <Name>MI TV 4S</Name>
       <Manufacturer>Xiaomi</Manufacturer>
@@ -48,6 +38,17 @@
       <TypeOut>USB Type-C</TypeOut>
     </Product>
     <Product xsi:type="Phone">
+      <Name>Mi 10</Name>
+      <Manufacturer>Xiaomi</Manufacturer>
+      <Price>1760</Price>
+      <Color>Blue</Color>
+      <CP>Qualcomm Snapdragon 865</CP>
+      <Storage>256</Storage>
+      <DisplaySize>6.67</DisplaySize>
+      <NFC>true</NFC>
+    </Product>
+  </Products>
+</Store> xsi:type="Phone">
       <Name>Mi 10</Name>
       <Manufacturer>Xiaomi</Manufacturer>
       <Price>1760</Price>
