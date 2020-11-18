@@ -16,20 +16,19 @@ namespace LAB_3
                 "Qualcomm Snapdragon 865", 256, 6.67, true));
             Console.WriteLine("This product is: \n" + store.FindByName("Mi 10"));
             Serialize(store);
-            //store = DeserializeStore("Act.xml");
             Console.WriteLine("Number of phones: " + store.NumberOfPhones());
+            store = DeserializeStore("Act.xml");
             Console.WriteLine("GATOVA");
         }
 
         static void WritePriceRange(Store store)
         {
             Console.WriteLine("Write minimal and maximal price: ");
-            double Min, Max;
             try
             {
-                Min = Convert.ToDouble(Console.ReadLine());
-                Max = Convert.ToDouble(Console.ReadLine());
-                List<Product> products = store.FindByPriceRange(Min, Max);
+                var min = Convert.ToDouble(Console.ReadLine());
+                var max = Convert.ToDouble(Console.ReadLine());
+                List<Product> products = store.FindByPriceRange(min, max);
                 foreach (var product in products)
                 {
                     Console.WriteLine(product);
@@ -81,13 +80,11 @@ namespace LAB_3
 
         static void Serialize(Store store)
         {
-            if (!store.IsEmpty())
-            {
-                XmlSerializer serializer = new XmlSerializer(typeof(Store));
-                FileStream fileStream = new FileStream("database.xml", FileMode.OpenOrCreate);
-                serializer.Serialize(fileStream, store);
-                fileStream.Close();
-            }
+            if (store.IsEmpty()) return;
+            XmlSerializer serializer = new XmlSerializer(typeof(Store));
+            FileStream fileStream = new FileStream("database.xml", FileMode.OpenOrCreate);
+            serializer.Serialize(fileStream, store);
+            fileStream.Close();
         }
     }
 }

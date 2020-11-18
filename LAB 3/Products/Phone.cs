@@ -13,7 +13,6 @@ namespace LAB_3
         /// </summary>
         [XmlElement(ElementName = "Storage")]
         public int Storage{ get; set;}
-        //public int xyjablic;
         /// <summary>
         /// Тип дисплея
         /// </summary>

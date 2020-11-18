@@ -59,18 +59,9 @@ namespace LAB_3
             return Products.Count == 0;
         }
 
-        public List<Product> FindByPriceRange(double Min, double Max)
+        public List<Product> FindByPriceRange(double min, double max)
         {
-            List<Product> products = new List<Product>();
-            foreach (var prod in Products)
-            {
-                if (prod.Price > Min && prod.Price < Max)
-                {
-                    products.Add(prod);
-                }
-            }
-
-            return products;
+            return Products.Where(product => product.Price > min && product.Price < max).ToList();
         }
 
         public override string ToString()
@@ -87,9 +78,7 @@ namespace LAB_3
 
         public int NumberOfPhones()
         {
-            int i = 0;
-            foreach (Product product in Products.OfType<Phone>()) i++;
-            return i;
+            return Products.OfType<Phone>().Cast<Product>().Count();
         }
 
     }

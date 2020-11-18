@@ -13,6 +13,7 @@
         /// <summary>
         /// Разрешение
         /// </summary>
+        /// public int xyjablic;
         public int Resolution;
         /// <summary>
         /// Частота матрицы
