@@ -1,0 +1,6 @@
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\LAB 3\bin\Debug\LAB_3.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\LAB 3\bin\Debug\LAB_3.pdb
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\LAB 3\obj\Debug\LAB 3.csprojAssemblyReference.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\LAB 3\obj\Debug\LAB 3.csproj.CoreCompileInputs.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\LAB 3\obj\Debug\LAB_3.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\LAB 3\obj\Debug\LAB_3.pdb
