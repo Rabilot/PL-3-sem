@@ -45,5 +45,10 @@ namespace LAB_3
             Price = price;
             Color = color;
         }
+
+        public Product()
+        {
+            
+        }
     }
 }

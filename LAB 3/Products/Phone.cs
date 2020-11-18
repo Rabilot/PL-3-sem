@@ -33,5 +33,10 @@ namespace LAB_3
             DisplaySize = displaySize;
             NFC = nfc;
         }
+
+        public Phone()
+        {
+            
+        }
     }
 }

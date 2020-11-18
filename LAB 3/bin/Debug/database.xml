@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products>
+    <Product xsi:type="Phone">
+      <Name>Redmi Note 9 Pro</Name>
+      <Manufacturer>Xiaomi</Manufacturer>
+      <Price>699</Price>
+      <Color>Gray</Color>
+      <CP>Qualcomm Snapdragon 720G</CP>
+      <Storage>128</Storage>
+      <DisplaySize>6.67</DisplaySize>
+      <NFC>true</NFC>
+    </Product>
+    <Product xsi:type="TV">
+      <Name>MI TV 4S</Name>
+      <Manufacturer>Xiaomi</Manufacturer>
+      <Price>1022.76</Price>
+      <Color>Gray</Color>
+      <ScreenType>VA</ScreenType>
+      <ScreenSize>50</ScreenSize>
+      <HDR>true</HDR>
+    </Product>
+    <Product xsi:type="Speakers">
+      <Name>Mi Pocket Speaker 2</Name>
+      <Manufacturer>Xiaomi</Manufacturer>
+      <Price>55.84</Price>
+      <Color>Black</Color>
+      <RMS>5</RMS>
+      <NumberOfSpeakers>1</NumberOfSpeakers>
+    </Product>
+    <Product xsi:type="Gamepads">
+      <Name>Flying Chi Black Samurai X8pro</Name>
+      <Manufacturer>Xiaomi</Manufacturer>
+      <Price>150</Price>
+      <Color>Black</Color>
+      <NumberOfKeys>14</NumberOfKeys>
+      <IsWireless>true</IsWireless>
+      <AnalogTriggers>true</AnalogTriggers>
+      <Touchpad>false</Touchpad>
+    </Product>
+    <Product xsi:type="Wire">
+      <Name>USB Type-C</Name>
+      <Manufacturer>Xiaomi</Manufacturer>
+      <Price>13</Price>
+      <Color>White</Color>
+      <Length>0.3</Length>
+      <TypeIn>USB Type-A</TypeIn>
+      <TypeOut>USB Type-C</TypeOut>
+    </Product>
+    <Product xsi:type="Phone">
+      <Name>Mi 10</Name>
+      <Manufacturer>Xiaomi</Manufacturer>
+      <Price>1760</Price>
+      <Color>Blue</Color>
+      <CP>Qualcomm Snapdragon 865</CP>
+      <Storage>256</Storage>
+      <DisplaySize>6.67</DisplaySize>
+      <NFC>true</NFC>
+    </Product>
+  </Products>
+</Store>

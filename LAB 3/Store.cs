@@ -16,7 +16,7 @@ namespace LAB_3
     public class Store
     {
         [XmlArray("Products"), XmlArrayItem(typeof(Product), ElementName = "Product")]
-        public List<Product> Products;
+        public List<Product> Products { get; set; }
 
         public Store()
         {

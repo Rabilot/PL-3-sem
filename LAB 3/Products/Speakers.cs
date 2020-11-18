@@ -22,5 +22,10 @@ namespace LAB_3
             RMS = rms;
             NumberOfSpeakers = numberOfSpeakers;
         }
+
+        public Speakers()
+        {
+            
+        }
     }
 }

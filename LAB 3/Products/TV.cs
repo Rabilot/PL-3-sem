@@ -27,6 +27,10 @@ namespace LAB_3
             ScreenSize = screenSize;
             HDR = hdr;
         }
-        
+
+        public TV()
+        {
+            
+        }
     }
 }

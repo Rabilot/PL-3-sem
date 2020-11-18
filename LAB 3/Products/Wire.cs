@@ -27,5 +27,10 @@ namespace LAB_3
             TypeIn = typeIn;
             TypeOut = typeOut;
         }
+
+        public Wire()
+        {
+            
+        }
     }
 }

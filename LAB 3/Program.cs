@@ -14,8 +14,9 @@ namespace LAB_3
             //WritePriceRange(store);
             store.Add(new Phone("Mi 10", "Xiaomi", 1760.00, "Blue", 
                 "Qualcomm Snapdragon 865", 256, 6.67, true));
+            Console.WriteLine("This product is: \n" + store.FindByName("Mi 10"));
             Serialize(store);
-            Console.WriteLine("NE GATOVA");
+            Console.WriteLine("GATOVA");
         }
 
         static void WritePriceRange(Store store)
@@ -64,10 +65,13 @@ namespace LAB_3
 
         static void Serialize(Store store)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Store));
-            FileStream fileStream = new FileStream("database.xml", FileMode.OpenOrCreate);
-            serializer.Serialize(fileStream, store); 
-            fileStream.Close();
+            if (!store.IsEmpty())
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(Store));
+                FileStream fileStream = new FileStream("database.xml", FileMode.OpenOrCreate);
+                serializer.Serialize(fileStream, store);
+                fileStream.Close();
+            }
         }
     }
 }

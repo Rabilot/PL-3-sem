@@ -34,5 +34,10 @@ namespace LAB_3
             AnalogTriggers = analogTriggers;
             Touchpad = touchpad;
         }
+
+        public Gamepads()
+        {
+            
+        }
     }
 }
