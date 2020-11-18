@@ -15,30 +15,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Epam-Tasks/Task 0/Multimedia.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/Salad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../GoogleDrive/3 sem (sync)/PL/Git/grsu-pl-labs-master/Lab 3/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/VegetablesIngredient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/SaladItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/MeatIngredients.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Epam-Tasks/Task 0/MediaFile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../GoogleDrive/3 sem (sync)/PL/Git/grsu-pl-labs-master/Lab 3/Gift.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/InvalidWeightException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../GoogleDrive/3 sem (sync)/PL/Git/grsu-pl-labs-master/Lab 3/GiftItem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LAB 3/Program.cs" />
         <option value="$PROJECT_DIR$/LAB 3/CPU.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Display.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Phone.cs" />
         <option value="$PROJECT_DIR$/LAB 3/display.cs" />
         <option value="$PROJECT_DIR$/LAB 3/TV.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Speakers.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Product.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Camera.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Products/Gamepads.cs" />
-        <option value="$PROJECT_DIR$/LAB 3/Products/Phone.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Product.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/Wire.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Products/Gamepads.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Products/Speakers.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Products/TV.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Products/Phone.cs" />
         <option value="$PROJECT_DIR$/LAB 3/Store.cs" />
+        <option value="$PROJECT_DIR$/LAB 3/Program.cs" />
       </list>
     </option>
   </component>
@@ -114,30 +120,38 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1604640288586">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1605724197344">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604640288586" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1604640288585">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724197344" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1605724197344">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604640288585" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1604640288585">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724197344" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1605724197343">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604640288585" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1604640288585">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724197343" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1605724197344">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604640288585" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605724197344" />
     <state x="275" y="116" key="Rider.ProjectTemplateDialog.Size" timestamp="1604567155457">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="116" key="Rider.ProjectTemplateDialog.Size/0.0.1366.768@0.0.1366.768" timestamp="1604567155457" />
-    <state x="1920" y="116" width="1402" height="1053" key="dock-window-1" timestamp="1605716507143">
+    <state x="1920" y="116" width="1402" height="1053" key="dock-window-1" timestamp="1605723897038">
       <screen x="1920" y="116" width="1920" height="1050" />
     </state>
-    <state x="1920" y="116" width="1402" height="1053" key="dock-window-1/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605716507143" />
+    <state x="1920" y="116" width="1402" height="1053" key="dock-window-1/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605723897038" />
+    <state x="1920" y="116" width="1387" height="724" key="dock-window-2" timestamp="1605723471741">
+      <screen x="1920" y="116" width="1920" height="1050" />
+    </state>
+    <state x="1920" y="116" width="1387" height="724" key="dock-window-2/0.0.1920.1050/1920.116.1920.1050@0.0.1920.1050" timestamp="1605723471741" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605716413708">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -1,35 +1,32 @@
-﻿namespace LAB_3
+﻿using System.Xml.Serialization;
+
+namespace LAB_3
 {
-    public class TV
+    public class TV : Product
     {
         /// <summary>
         /// Тип экрана
         /// </summary>
+        [XmlElement(ElementName = "ScreenType")]
         public string ScreenType { get; set; }
         /// <summary>
         /// Размер экрана
         /// </summary>
+        [XmlElement(ElementName = "ScreenSize")]
         public double ScreenSize { get; set; }
-        /// <summary>
-        /// Разрешение
-        /// </summary>
-        public int ScreenResolution { get; set; }
         /// <summary>
         /// Наличие HDR
         /// </summary>
+        [XmlElement(ElementName = "HDR")]
         public bool HDR { get; set; }
-        /// <summary>
-        /// Наличие голосового управления
-        /// </summary>
-        public bool VoiceRemote { get; set; }
-        /// <summary>
-        /// Количество HDMI
-        /// </summary>
-        public int HDMI { get; set; }
-        /// <summary>
-        /// Наличие SmartTV
-        /// </summary>
-        public bool SmartTV { get; set; }
+
+        public TV(string name, string manufacturer, double price, string color, string screenType, double screenSize,
+            bool hdr) : base(name, manufacturer, price, color)
+        {
+            ScreenType = screenType;
+            ScreenSize = screenSize;
+            HDR = hdr;
+        }
         
     }
 }

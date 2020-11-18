@@ -1,30 +1,49 @@
-﻿namespace LAB_3
+﻿using System;
+using System.Text;
+using System.Xml.Serialization;
+
+namespace LAB_3
 {
     public class Product
     {
         /// <summary>
         /// Название продукта.
         /// </summary>
+        [XmlElement(ElementName = "Name")]
         public string Name { get; set;}
         /// <summary>
         ///  Производитель.
         /// </summary>
+        [XmlElement(ElementName = "Manufacturer")]
         public string Manufacturer{ get; set;}
-        /// <summary>
-        /// Вес продукта.
-        /// </summary>
-        public int Weight{ get; set;}
+        
         /// <summary>
         /// Цена
         /// </summary>
-        public int Price{ get; set;}
-        /// <summary>
-        /// Серийный номер
-        /// </summary>
-        public string SerialNumber{ get; set;}
+        [XmlElement(ElementName = "Price")]
+        public double Price{ get; set;}
         /// <summary>
         /// Цвет
         /// </summary>
+        [XmlElement(ElementName = "Color")]
         public string Color { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("Product: \n");
+            stringBuilder.Append(
+                $"Name: {Name}\nManufacturer: {Manufacturer}\nWeight: " +
+                $"Price: {Price}\nColor: {Color}\n");
+            return stringBuilder.ToString();
+        }
+
+        public Product(string name, string manufacturer, double price, string color)
+        {
+            Name = name;
+            Manufacturer = manufacturer;
+            Price = price;
+            Color = color;
+        }
     }
 }
