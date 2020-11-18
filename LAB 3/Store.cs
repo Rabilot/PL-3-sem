@@ -27,6 +27,11 @@ namespace LAB_3
             Products.Remove(product);
         }
 
+        public Product FindByName(string name)
+        {
+            return Products.Find(product => product.Name == name);
+        }
+
         public bool IsEmpty()
         {
             return Products.Count == 0;
