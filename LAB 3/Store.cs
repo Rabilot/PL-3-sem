@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data.Odbc;
 using System.Diagnostics.CodeAnalysis;
@@ -64,6 +65,7 @@ namespace LAB_3
         {
             return Products.Where(product => product.Price > min && product.Price < max).ToList();
         }
+        
 
         public override string ToString()
         {
