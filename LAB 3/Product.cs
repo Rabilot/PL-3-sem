@@ -40,6 +40,10 @@ namespace LAB_3
 
         public Product(string name, string manufacturer, double price, string color)
         {
+            if (price < 0)
+            {
+                throw new Exception("Invalid price!");
+            }
             Name = name;
             Manufacturer = manufacturer;
             Price = price;

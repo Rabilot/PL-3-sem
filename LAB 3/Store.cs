@@ -62,6 +62,10 @@ namespace LAB_3
 
         public List<Product> FindByPriceRange(double min, double max)
         {
+            if (min < 0 || max < min)
+            {
+                throw new InvalidPriceException();
+            }
             return Products.Where(product => product.Price > min && product.Price < max).ToList();
         }
 

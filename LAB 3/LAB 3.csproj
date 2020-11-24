@@ -39,6 +39,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="display.cs" />
+        <Compile Include="InvalidPriceException.cs" />
         <Compile Include="Product.cs" />
         <Compile Include="Products\Camera.cs" />
         <Compile Include="Products\Gamepads.cs" />

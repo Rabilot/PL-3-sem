@@ -12,13 +12,22 @@ namespace LAB_3
             Store store = MakeStore();
             Console.WriteLine(store);
             WritePriceRange(store);
-            store.Add(new Phone("Mi 10", "Xiaomi", 1760.00, "Blue", 
-                "Qualcomm Snapdragon 865", 256, 6.67, true));
-            Console.WriteLine("This product is: \n" + store.FindByName("Mi 10"));
+            
+            /*try
+            {
+                store.Add(new Phone("Mi 10", "Xiaomi", -1760.00, "Blue", 
+                    "Qualcomm Snapdragon 865", 256, 6.67, true));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }*/
+            
+            /*Console.WriteLine("This product is: \n" + store.FindByName("Mi 10"));
             store.Remove(0);
             Serialize(store);
             Console.WriteLine("Number of phones: " + store.NumberOfPhones());
-            store = DeserializeStore("Act.xml");
+            store = DeserializeStore("Act.xml");*/
             Console.WriteLine("GATOVA");
         }
 
@@ -35,9 +44,11 @@ namespace LAB_3
                     Console.WriteLine(product);
                 }
             }
-            catch (FormatException)
+            catch (InvalidPriceException e)
             {
-                Console.WriteLine("Format Exception!");
+                Console.WriteLine(e);
+                Console.WriteLine("Try again: ");
+                WritePriceRange(store);
             }
         }
 
