@@ -4,3 +4,9 @@ C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\PL 3 sem\obj\Debug\PL 3 sem.cs
 C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\PL 3 sem\obj\Debug\PL 3 sem.csproj.CoreCompileInputs.cache
 C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\PL 3 sem\obj\Debug\PL_3_sem.exe
 C:\Users\rabil\OneDrive\Desktop\3 sem\PL\PL 3 sem\PL 3 sem\obj\Debug\PL_3_sem.pdb
+C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\PL 3 sem\bin\Debug\PL_3_sem.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\PL 3 sem\bin\Debug\PL_3_sem.pdb
+C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\PL 3 sem\obj\Debug\PL 3 sem.csprojAssemblyReference.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\PL 3 sem\obj\Debug\PL 3 sem.csproj.CoreCompileInputs.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\PL 3 sem\obj\Debug\PL_3_sem.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\PL 3 sem\obj\Debug\PL_3_sem.pdb
