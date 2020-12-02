@@ -8,3 +8,13 @@ C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\LAB 4\obj\Debug\LAB 4.csproj.
 C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\LAB 4\obj\Debug\LAB_4.exe
 C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\LAB 4\obj\Debug\LAB_4.pdb
 C:\Users\rabil\OneDrive\Desktop\3 sem\Git\PL-3-sem\LAB 4\obj\Debug\LAB_4.Form1.resources
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\bin\Debug\LAB_4.exe.config
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\bin\Debug\LAB_4.exe
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\bin\Debug\LAB_4.pdb
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\obj\Debug\LAB 4.csprojAssemblyReference.cache
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\obj\Debug\LAB_4.Form1.resources
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\obj\Debug\LAB_4.Properties.Resources.resources
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\obj\Debug\LAB 4.csproj.GenerateResource.cache
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\obj\Debug\LAB 4.csproj.CoreCompileInputs.cache
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\obj\Debug\LAB_4.exe
+C:\Users\rabil\Desktop\University\Git\PL-3-sem\LAB 4\obj\Debug\LAB_4.pdb

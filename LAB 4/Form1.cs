@@ -32,5 +32,9 @@ namespace LAB_4
         {
             throw new System.NotImplementedException();
         }
+        private void treeView_ItemDrag(object sender, System.Windows.Forms.ItemDragEventArgs e)
+        {
+            DoDragDrop(e.Item, DragDropEffects.Copy);
+        }
     }
 }
