@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
+using LAB_4.Products;
 
 namespace LAB_4
 {
@@ -81,6 +82,25 @@ namespace LAB_4
         public int NumberOfPhones()
         {
             return Products.OfType<Products.Phone>().Cast<Product>().Count();
+        }
+        
+        public void MakeStore()
+        {
+            Phone phone = new Phone("Redmi Note 9 Pro", "Xiaomi", 699.0, "Gray", 
+                "Qualcomm Snapdragon 720G", 128, 6.67, true);
+            Products.Add(phone);
+            TV tv = new TV("MI TV 4S", "Xiaomi", 1022.76, "Gray", "VA",
+                50.0, true);
+            Products.Add(tv);
+            Speakers speakers = new Speakers("Mi Pocket Speaker 2", "Xiaomi", 55.84,
+                "Black", 5, 1);
+            Products.Add(speakers);
+            Gamepads gamepads = new Gamepads("Flying Chi Black Samurai X8pro", "Xiaomi",
+                150.0, "Black", 14, true, true, false);
+            Products.Add(gamepads);
+            Wire wire = new Wire("USB Type-C", "Xiaomi", 13.0, "White",
+                0.3, "USB Type-A", "USB Type-C");
+            Products.Add(wire);
         }
 
     }
