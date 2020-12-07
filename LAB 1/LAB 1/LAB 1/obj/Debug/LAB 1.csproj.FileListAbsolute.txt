@@ -1,0 +1,6 @@
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 1\LAB 1\LAB 1\bin\Debug\LAB_1.exe
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 1\LAB 1\LAB 1\bin\Debug\LAB_1.pdb
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 1\LAB 1\LAB 1\obj\Debug\LAB 1.csprojAssemblyReference.cache
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 1\LAB 1\LAB 1\obj\Debug\LAB 1.csproj.CoreCompileInputs.cache
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 1\LAB 1\LAB 1\obj\Debug\LAB_1.exe
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 1\LAB 1\LAB 1\obj\Debug\LAB_1.pdb

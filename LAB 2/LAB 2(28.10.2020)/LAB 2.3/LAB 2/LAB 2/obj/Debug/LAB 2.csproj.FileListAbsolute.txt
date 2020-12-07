@@ -1,0 +1,24 @@
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.exe
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.pdb
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csprojAssemblyReference.cache
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csproj.CoreCompileInputs.cache
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.exe
+C:\Users\rabil\Desktop\University\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.pdb
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.pdb
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csprojAssemblyReference.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csproj.CoreCompileInputs.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.pdb
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.pdb
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csprojAssemblyReference.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csproj.CoreCompileInputs.cache
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.exe
+C:\Users\rabil\OneDrive\Desktop\3 sem\PL\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.pdb
+C:\Users\rabil\Desktop\University\3 sem\PL\LSB 2\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.exe
+C:\Users\rabil\Desktop\University\3 sem\PL\LSB 2\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\bin\Debug\LAB_2.pdb
+C:\Users\rabil\Desktop\University\3 sem\PL\LSB 2\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csprojAssemblyReference.cache
+C:\Users\rabil\Desktop\University\3 sem\PL\LSB 2\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB 2.csproj.CoreCompileInputs.cache
+C:\Users\rabil\Desktop\University\3 sem\PL\LSB 2\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.exe
+C:\Users\rabil\Desktop\University\3 sem\PL\LSB 2\LAB 2(28.10.2020)\LAB 2.3\LAB 2\LAB 2\obj\Debug\LAB_2.pdb
