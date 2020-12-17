@@ -20,8 +20,8 @@ namespace LAB_4.Products
         [XmlElement(ElementName = "HDR")]
         public bool HDR { get; set; }
 
-        public TV(string name, string manufacturer, double price, string color, string screenType, double screenSize,
-            bool hdr) : base(name, manufacturer, price, color)
+        public TV(TypeOfProduct type, string name, string manufacturer, double price, string color, string screenType, double screenSize,
+            bool hdr) : base(type, name, manufacturer, price, color)
         {
             ScreenType = screenType;
             ScreenSize = screenSize;

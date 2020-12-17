@@ -20,8 +20,8 @@ namespace LAB_4.Products
         [XmlElement(ElementName = "TypeOut")]
         public string TypeOut;
 
-        public Wire(string name, string manufacturer, double price, string color,
-            double length, string typeIn, string typeOut) : base(name, manufacturer, price, color)
+        public Wire(TypeOfProduct type, string name, string manufacturer, double price, string color,
+            double length, string typeIn, string typeOut) : base(type, name, manufacturer, price, color)
         {
             Length = length;
             TypeIn = typeIn;

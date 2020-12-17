@@ -28,6 +28,8 @@ namespace LAB_4
         [XmlElement(ElementName = "Color")]
         public string Color { get; set; }
 
+        public TypeOfProduct Type { get; }
+
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
@@ -38,12 +40,14 @@ namespace LAB_4
             return stringBuilder.ToString();
         }
 
-        public Product(string name, string manufacturer, double price, string color)
+        public Product(TypeOfProduct type, string name, string manufacturer, double price, string color)
         {
             if (price < 0)
             {
                 throw new Exception("Invalid price!");
             }
+
+            Type = type;
             Name = name;
             Manufacturer = manufacturer;
             Price = price;

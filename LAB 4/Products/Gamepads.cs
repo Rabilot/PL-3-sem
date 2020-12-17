@@ -25,9 +25,9 @@ namespace LAB_4.Products
         [XmlElement(ElementName = "Touchpad")]
         public bool Touchpad;
 
-        public Gamepads(string name, string manufacturer, double price, string color,
+        public Gamepads(TypeOfProduct type, string name, string manufacturer, double price, string color,
             int numberOfKeys, bool isWireless, bool analogTriggers,
-            bool touchpad) : base(name, manufacturer, price, color)
+            bool touchpad) : base(type, name, manufacturer, price, color)
         {
             NumberOfKeys = numberOfKeys;
             IsWireless = isWireless;

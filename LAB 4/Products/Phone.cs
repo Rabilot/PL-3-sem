@@ -24,8 +24,8 @@ namespace LAB_4.Products
         [XmlElement(ElementName = "NFC")]
         public bool NFC{ get; set;}
 
-        public Phone(string name, string manufacturer, double price, string color, string cpu, int storage,
-            double displaySize, bool nfc) : base(name, manufacturer, price, color)
+        public Phone(TypeOfProduct type, string name, string manufacturer, double price, string color, string cpu, int storage,
+            double displaySize, bool nfc) : base(type, name, manufacturer, price, color)
         {
             CPU = cpu;
             Storage = storage;

@@ -16,8 +16,8 @@ namespace LAB_4.Products
         [XmlElement(ElementName = "NumberOfSpeakers")]
         public int NumberOfSpeakers { get; set; }
 
-        public Speakers(string name, string manufacturer, double price, string color, int rms, 
-            int numberOfSpeakers) : base(name, manufacturer, price, color)
+        public Speakers(TypeOfProduct type, string name, string manufacturer, double price, string color, int rms, 
+            int numberOfSpeakers) : base(type, name, manufacturer, price, color)
         {
             RMS = rms;
             NumberOfSpeakers = numberOfSpeakers;

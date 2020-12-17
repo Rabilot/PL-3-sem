@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using LAB_4.Products;
@@ -14,87 +15,86 @@ namespace LAB_4
             InitializeComponent();
             Initialized();
         }
-        void Initialized()
+
+        private void Initialized()
         {
             Store store = new Store();
             store.MakeStore();
-            //listBox1.Items.Add()
             foreach (var product in store.Products)
             {
-                
-                listBox1.Items.Add(product.Name);
-            }
-        }
-        
-        /*
-        static void WritePriceRange(Store store)
-        {
-            Console.WriteLine("Write minimal and maximal price: ");
-            try
-            {
-                var min = Convert.ToDouble(Console.ReadLine());
-                var max = Convert.ToDouble(Console.ReadLine());
-                List<Product> products = store.FindByPriceRange(min, max);
-                foreach (var product in products)
-                {
-                    Console.WriteLine(product);
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                Console.WriteLine("Try again: ");
-                WritePriceRange(store);
+                storeItems.Items.Add(product.Name);
             }
         }
 
-        
-
-        static Store MakeStore()
+        public void UpdateInfo()
         {
-            Store store = new Store();
-            Phone phone = new Phone("Redmi Note 9 Pro", "Xiaomi", 699.0, "Gray", 
-                "Qualcomm Snapdragon 720G", 128, 6.67, true);
-            store.Add(phone);
-            TV tv = new TV("MI TV 4S", "Xiaomi", 1022.76, "Gray", "VA",
-                50.0, true);
-            store.Add(tv);
-            Speakers speakers = new Speakers("Mi Pocket Speaker 2", "Xiaomi", 55.84,
-                "Black", 5, 1);
-            store.Add(speakers);
-            Gamepads gamepads = new Gamepads("Flying Chi Black Samurai X8pro", "Xiaomi",
-                150.0, "Black", 14, true, true, false);
-            store.Add(gamepads);
-            Wire wire = new Wire("USB Type-C", "Xiaomi", 13.0, "White",
-                0.3, "USB Type-A", "USB Type-C");
-            store.Add(wire);
-            return store;
+            //MakeGift();
+            selectedItemsInfo.Text = MakeStore().ToString();
+            selectedItems.Text = selectedItems.Items.Count + "";
+           
         }
 
-        static Store DeserializeStore(string path)
+        private Store MakeStore()
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Store));
-            try
+            Store result = new Store();
+            int count = selectedItems.Items.Count;
+            //Console.WriteLine("ITEMS COUNT: " + count);
+            StringBuilder r = new StringBuilder();
+            for (int i = 0; i < count; i++)
             {
-                FileStream fileStream = new FileStream(path, FileMode.Open);
-                Store store = (Store) serializer.Deserialize(fileStream);
-                fileStream.Close();
-                return store;
+                string name = selectedItems.Items[i].ToString();
+                r.Append("Loading #" + i);
+                r.Append(name);
+                //Console.WriteLine("Loading #" + i);
+                //Console.WriteLine(name);
+                Product item = StoreManager.FoundGiftItemByName(name);
+                r.Append("is null: " + (item == null));
+                //Console.WriteLine("is null: " + (item == null));
+                result.Add(item);
             }
-            catch (FileNotFoundException)
+            Console.WriteLine(r.ToString());
+            //selectedItemsInfo.Text = r.ToString();
+            return result;
+        }
+
+
+        private void selectedItems_DragDrop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.StringFormat))
             {
-                Console.WriteLine($"File {path} not found!");
-                return new Store();
+                string str = (string) e.Data.GetData(
+                    DataFormats.StringFormat);
+
+                selectedItems.Items.Add(str);
+                UpdateInfo();
             }
         }
 
-        static void Serialize(Store store)
+        private void storeItems_MouseDown(object sender, MouseEventArgs e)
         {
-            if (store.IsEmpty()) return;
-            XmlSerializer serializer = new XmlSerializer(typeof(Store));
-            FileStream fileStream = new FileStream("database.xml", FileMode.OpenOrCreate);
-            serializer.Serialize(fileStream, store);
-            fileStream.Close();
-        }*/
+            if (storeItems.Items.Count == 0)
+                return;
+
+            int index = storeItems.IndexFromPoint(e.X, e.Y);
+            if (index < 0)
+                return;
+            string s = storeItems.Items[index].ToString();
+            DoDragDrop(s, DragDropEffects.All);
+        }
+
+        private void selectedItems_DragOver(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.All;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            selectedItems.Items.RemoveAt(selectedItems.SelectedIndex);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            selectedItems.Items.Clear();
+        }
     }
 }
