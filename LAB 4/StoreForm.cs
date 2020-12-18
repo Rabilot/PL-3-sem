@@ -88,12 +88,17 @@ namespace LAB_4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            selectedItems.Items.RemoveAt(selectedItems.SelectedIndex);
+            if (selectedItems.SelectedIndex != -1)
+            {
+                selectedItems.Items.RemoveAt(selectedItems.SelectedIndex);
+                UpdateInfo();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             selectedItems.Items.Clear();
+            UpdateInfo();
         }
     }
 }
