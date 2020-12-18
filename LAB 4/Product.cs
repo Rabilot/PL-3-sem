@@ -33,10 +33,10 @@ namespace LAB_4
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("Product: \n");
+            stringBuilder.Append("Product: \r\r\n");
             stringBuilder.Append(
-                $"Name: {Name}\nManufacturer: {Manufacturer}\nWeight: " +
-                $"Price: {Price}\nColor: {Color}\n");
+                $"Name: {Name}\r\nManufacturer: {Manufacturer}\r\n" +
+                $"Price: {Price}\r\nColor: {Color}\r\n");
             return stringBuilder.ToString();
         }
 

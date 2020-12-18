@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Windows.Forms;
 
 namespace LAB_4
 {
@@ -40,6 +41,7 @@ namespace LAB_4
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.selectedItemsInfo = new System.Windows.Forms.TextBox();
+            this.priceLabel = new System.Windows.Forms.TextBox();
             this.toolStripDropDown1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,14 +117,25 @@ namespace LAB_4
             this.selectedItemsInfo.Location = new System.Drawing.Point(433, 12);
             this.selectedItemsInfo.Multiline = true;
             this.selectedItemsInfo.Name = "selectedItemsInfo";
+            this.selectedItemsInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.selectedItemsInfo.Size = new System.Drawing.Size(332, 307);
             this.selectedItemsInfo.TabIndex = 4;
+            // 
+            // priceLabel
+            // 
+            this.priceLabel.BackColor = System.Drawing.SystemColors.Menu;
+            this.priceLabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.priceLabel.Location = new System.Drawing.Point(433, 325);
+            this.priceLabel.Name = "priceLabel";
+            this.priceLabel.Size = new System.Drawing.Size(105, 13);
+            this.priceLabel.TabIndex = 5;
             // 
             // StoreForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.priceLabel);
             this.Controls.Add(this.selectedItemsInfo);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -134,6 +147,8 @@ namespace LAB_4
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.TextBox priceLabel;
 
         private System.Windows.Forms.TextBox selectedItemsInfo;
 

@@ -10,53 +10,52 @@ namespace LAB_4
 {
     public partial class StoreForm : Form
     {
+        private Store store = new Store();
         public StoreForm()
         {
             InitializeComponent();
-            Initialized();
+            store = Initialized();
         }
 
-        private void Initialized()
+        private Store Initialized()
         {
-            Store store = new Store();
+            store = new Store();
             store.MakeStore();
             foreach (var product in store.Products)
             {
                 storeItems.Items.Add(product.Name);
             }
+
+            return store;
         }
 
         public void UpdateInfo()
         {
-            //MakeGift();
             selectedItemsInfo.Text = MakeStore().ToString();
-            selectedItems.Text = selectedItems.Items.Count + "";
-           
+            
         }
 
         private Store MakeStore()
         {
             Store result = new Store();
+            double finalPrice = 0;
             int count = selectedItems.Items.Count;
-            //Console.WriteLine("ITEMS COUNT: " + count);
             StringBuilder r = new StringBuilder();
             for (int i = 0; i < count; i++)
             {
                 string name = selectedItems.Items[i].ToString();
-                r.Append("Loading #" + i);
-                r.Append(name);
-                //Console.WriteLine("Loading #" + i);
-                //Console.WriteLine(name);
-                Product item = StoreManager.FoundGiftItemByName(name);
-                r.Append("is null: " + (item == null));
-                //Console.WriteLine("is null: " + (item == null));
+                Product item = store.FindByName(name);
                 result.Add(item);
             }
-            Console.WriteLine(r.ToString());
-            //selectedItemsInfo.Text = r.ToString();
+
+            foreach (var product in result.Products)
+            {
+                finalPrice += product.Price;
+            }
+
+            priceLabel.Text = $"Price: {finalPrice}";
             return result;
         }
-
 
         private void selectedItems_DragDrop(object sender, DragEventArgs e)
         {

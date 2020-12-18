@@ -70,10 +70,10 @@ namespace LAB_4
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("StoreProducts: \n");
+            stringBuilder.Append("StoreProducts: \r\n");
             foreach (var product in Products)
             {
-                stringBuilder.Append($"{product}\n");
+                stringBuilder.Append($"{product}\r\n");
             }
 
             return stringBuilder.ToString();
