@@ -117,6 +117,7 @@ namespace LAB_4
             this.selectedItemsInfo.Location = new System.Drawing.Point(433, 12);
             this.selectedItemsInfo.Multiline = true;
             this.selectedItemsInfo.Name = "selectedItemsInfo";
+            this.selectedItemsInfo.ReadOnly = true;
             this.selectedItemsInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.selectedItemsInfo.Size = new System.Drawing.Size(332, 307);
             this.selectedItemsInfo.TabIndex = 4;
